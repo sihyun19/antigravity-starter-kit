@@ -1,0 +1,78 @@
+{
+  "plugins": {
+    "android-cli-plugin": {
+      "installedFrom": {
+        "id": "antigravity-plugins-official/plugin/android-cli-plugin",
+        "marketplace": "antigravity-plugins-official",
+        "version": "1.0.16625370"
+      }
+    },
+    "chrome-devtools-plugin": {
+      "installedFrom": {
+        "id": "antigravity-plugins-official/plugin/chrome-devtools-plugin",
+        "marketplace": "antigravity-plugins-official",
+        "version": "1.10.1"
+      }
+    },
+    "gemini-api": {
+      "installedFrom": {
+        "id": "antigravity-plugins-official/plugin/gemini-api",
+        "marketplace": "antigravity-plugins-official",
+        "version": "2.3.0"
+      }
+    },
+    "modern-web-guidance-plugin": {
+      "installedFrom": {
+        "id": "antigravity-plugins-official/plugin/modern-web-guidance-plugin",
+        "marketplace": "antigravity-plugins-official",
+        "version": "0.0.195"
+      }
+    }
+  },
+  "userSettings": {
+    "autoExecutionPolicy": "CASCADE_COMMANDS_AUTO_EXECUTION_EAGER",
+    "browserJsExecutionPolicy": "BROWSER_JS_EXECUTION_POLICY_TURBO",
+    "conversationWidth": "CONVERSATION_WIDTH_WIDE",
+    "customThemeSeedsLight": {
+      "background": "#F8F6F1",
+      "foregroundOverride": "#262329",
+      "primary": "#007acc"
+    },
+    "enableTerminalSandbox": false,
+    "nonWorkspaceFileAccessPolicy": "AGENT_SETTING_POLICY_ALLOW",
+    "permissionPreset": "AGENT_PERMISSION_PRESET_TURBO",
+    "permissions": {
+      "deny": [
+        "command(rm -rf *)",
+        "command(rm -r *)",
+        "command(Remove-Item * -Recurse*)",
+        "command(Remove-Item * -r*)",
+        "command(del /f /s /q *)",
+        "command(del /s /q *)",
+        "command(rd /s /q *)",
+        "command(rmdir /s /q *)",
+        "command(format *)",
+        "command(Format-Volume*)",
+        "command(diskpart*)",
+        "command(Clear-Disk*)",
+        "command(Remove-Partition*)",
+        "command(reg delete*)",
+        "command(git reset --hard*)",
+        "command(git clean -f*)",
+        "command(git clean -ffdx*)",
+        "command(git checkout -- *)",
+        "command(git restore *)",
+        "command(git push *--force*)",
+        "command(git push *-f *)",
+        "command(git push *--force-with-lease*)",
+        "command(git branch -D *)",
+        "file(C:/Windows/**)",
+        "file(C:/Program Files/**)",
+        "file(C:/Program Files (x86)/**)",
+        "file(C:/ProgramData/**)"
+      ]
+    },
+    "themeMode": "THEME_MODE_LIGHT",
+    "useAiCredits": false
+  }
+}
